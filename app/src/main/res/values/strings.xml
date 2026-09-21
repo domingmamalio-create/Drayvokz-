@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Drayvokz</string>
+    <string name="create_profile">CREATE PROFILE</string>
+    <string name="remove_profile">REMOVE PROFILE</string>
+    <string name="install_apk">INSTALL APK</string>
+    <string name="app_list">INSTALLED IN CONTAINER</string>
+    <string name="no_apps">Wala pang apps sa container.\nI-tap INSTALL APK para magdagdag.</string>
+</resources>

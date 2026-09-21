@@ -1,4 +1,3 @@
-```yaml
 name: Build Drayvokz APK
 
 on:
@@ -23,10 +22,6 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Grant execute on gradlew (if any)
-        run: |
-          if [ -f gradlew ]; then chmod +x gradlew; fi
-
       - name: Install Gradle
         run: |
           wget -q https://services.gradle.org/distributions/gradle-8.5-bin.zip
@@ -42,4 +37,3 @@ jobs:
           name: Drayvokz-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           retention-days: 30
-```

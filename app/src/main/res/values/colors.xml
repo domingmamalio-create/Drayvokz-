@@ -1,0 +1,13 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#1A1220</color>
+    <color name="bg_card">#262038</color>
+    <color name="header">#3A285A</color>
+    <color name="accent">#B482FF</color>
+    <color name="mint">#78FFB4</color>
+    <color name="text">#EBEBF5</color>
+    <color name="text_dim">#A09BB4</color>
+    <color name="red">#FF6B8A</color>
+</resources>
+```
